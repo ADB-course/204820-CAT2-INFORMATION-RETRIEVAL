@@ -50,17 +50,38 @@ The content of these files can be sample dataset extracted from https://www.kagg
 
 We will use a basic Elasticsearch Docker setup for this demonstration.
 
-Ensure Docker and Docker Compose are installed:
+Ensure Docker, request module, git and Docker Compose(optional) are installed:
 
 ```
 docker --version
 docker-compose --version
 requests module (pip install requests)
+git --version
 ```
 
 ### 4.1. Pulling the Elasticsearch Image
+On Visual studio code or prefered shell, Open your terminal and Clone the Git repository to local machine:
 
-Open your terminal and pull the official Elasticsearch Docker image:
+```
+git clone https://github.com/ADB-course/204820-CAT2-INFORMATION-RETRIEVAL
+```
+
+sample output
+```
+Cloning into '204820-CAT2-INFORMATION-RETRIEVAL'...
+remote: Enumerating objects: 23, done.
+remote: Counting objects: 100% (23/23), done.
+remote: Compressing objects: 100% (20/20), done.
+remote: Total 23 (delta 2), reused 23 (delta 2), pack-reused 0 (from 0)
+Receiving objects: 100% (23/23), 983.06 KiB | 1.05 MiB/s, done.
+Resolving deltas: 100% (2/2), done.
+```
+Change directory into the repository working directory
+```
+cd ./204820-CAT2-INFORMATION-RETRIEVAL/
+```
+
+Pull the official Elasticsearch Docker image:
 
 ```
 docker pull docker.elastic.co/kibana/kibana:8.17.4

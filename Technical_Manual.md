@@ -767,7 +767,7 @@ NB: This Lab focused on using pdf files. The GIT repository also contains a file
 ### References:
 
 1. https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html
-2.https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html
+2. https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html
 3. https://www.elastic.co/guide/en/elasticsearch/reference/current/documents-indices.html
 4. https://www.elastic.co/guide/en/elasticsearch/reference/current/es-ingestion-overview.html
 5. https://www.elastic.co/guide/en/elasticsearch/reference/current/attachment.html
